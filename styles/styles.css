@@ -114,3 +114,11 @@ body {
     color: #616161;
     margin: 2em;
 }
+
+#remove-product{
+    cursor: pointer;
+}
+
+#btn-add{
+    cursor: pointer;
+}
