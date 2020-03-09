@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Vazir-FD';
+    src: url('../fonts/Vazir-FD.woff');
+}
+
+body {
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Vazir-FD';
+    direction: rtl;
+    background: #FAFAFA;
+}
+
+.header {
+    width: 100%;
+    padding: 1px;
+    background: #8E24AA;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.main {
+    text-align: center;
+    padding: 3em 0;
+}
+
+#search-products, #add-product-form input, .edit input {
+    width: 25%;
+    border-radius: 15px;
+    resize: vertical;
+    border: 1px solid #E1BEE7;
+    margin: 1em 0;
+    outline: 0;
+    padding: 10px;
+    font-size: .7em;
+    font-family: 'Vazir-FD';
+}
+
+#products p {
+    display: inline;
+    margin: 0 1.4em;
+    color: #616161;
+}
+
+#products a {
+    text-decoration: none;
+    color: #8d24aa;
+    font-size: 1.2em;
+    padding: .1em;
+}
+
+#products button, #remove-product {
+    width: 9%;
+    background: #E1BEE7;;
+    color: #9C27B0;
+    border-radius: 15px;
+    resize: vertical;
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: 0;
+    padding: 10px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Vazir-FD';
+    border: none;
+    font-size: .8em;
+}
+
+.product-row {
+    padding: 2em;
+    margin: 2em 6em;
+    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 5px rgba(0,0,0,.07);
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+}
+
+#add-product-form button {
+    width: 9%;
+    background: #9C27B0;;
+    color: #fff;
+    border-radius: 15px;
+    resize: vertical;
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: 0;
+    padding: 10px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Vazir-FD';
+    border: none;
+}
+
+.sort {
+    margin: 1em 0;
+}
+
+.home-btn {
+    margin: .6em;
+}
+
+.home-btn a {
+    text-decoration: none;
+    color: #8d24aa;
+    font-size: 1.2em;
+}
+
+#last-edit {
+    color: #616161;
+    margin: 2em;
+}

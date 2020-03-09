@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <title>مدیریت محصولات</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <h1>مدیریت محصولات</h1>
+            </div>
+        </div>
+        <div class="container main">
+            <input type="text" id="search-products" placeholder="جست و جو...">
+            <label>
+                <input type="checkbox" id="available-products"> محصولات موجود
+            </label>
+            <div class="sort">
+                <select id="sort">
+                    <option value="byEdited">مرتب سازی بر اساس آخرین ویرایش</option>
+                    <option value="byCreated">مرتب سازی بر اساس تاریخ ساختن</option>
+                </select>
+            </div>
+            <form id="add-product-form">
+                <input type="text" name="productTitle" placeholder="عنوان محصول...">
+                <input type="text" name="productPrice" placeholder="قیمت محصول...">
+                <button>افزودن</button>
+            </form>
+            <div id="products"></div>
+        </div>
+
+        <script src="./scripts/moment.js"></script>
+        <script src="./scripts/jalali-moment.js"></script>
+        <script src="./scripts/uuid.js"></script>
+        <script src="./scripts/functions.js"></script>
+        <script src='./scripts/app.js'></script>
+    </body>
+</html>
